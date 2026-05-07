@@ -1,0 +1,54 @@
+.toolbar {
+  background: rgba(45, 45, 58, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 12px 24px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dropzone {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #3a3a4a, #2d2d3a);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 40px;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  color: #f0f0f0;
+}
+
+.dropzone:hover {
+  transform: translateY(-1px);
+  background: linear-gradient(135deg, #4a4a5a, #3a3a4a);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.dragActive {
+  background: linear-gradient(135deg, #5a5a7a, #4a4a6a);
+  border-color: #8a8aaa;
+  transform: scale(0.98);
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #aaa;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 6px 12px;
+  border-radius: 40px;
+}
+
+.iconSmall {
+  font-size: 14px;
+}
